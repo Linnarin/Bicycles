@@ -1,0 +1,7 @@
+.header__links {
+  display: flex;
+  flex-direction: row;
+  margin: 28px 120px;
+  justify-content: flex-end;
+  gap: 0 34px;
+}
