@@ -1,0 +1,6 @@
+.road {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0 120px;
+  max-height: 856px;
+}

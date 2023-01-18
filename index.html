@@ -5,32 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Шоссе, ТТ и Грэвел</title>
-    <link rel="stylesheet" href="./vendor/normalize.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/vendor/normalize.css">
+    <link rel="stylesheet" href="/vendor/fonts/Inter-3.19/Inter-Web/inter.css">
+    <link rel="stylesheet" href="/pages/index.css">
   </head>
   <body class="page">
     <header class="header">
       <nav class="header__links">
-        <a class="header__link" href="#">Покрытия и градиенты</a>
-        <a class="header__link" href="#">Велосипеды</a>
-        <a class="header__link" href="#">Тренировки</a>
+        <a class="header__link link" href="#road">Покрытия и градиенты</a>
+        <a class="header__link link" href="#bicycle">Велосипеды</a>
+        <a class="header__link link" href="#training">Тренировки</a>
       </nav>
     </header>
     <main>
-      <section class="road">
-        <h1 class="section__title">Шоссе, ТТ 
-            и Грэвел</h1>
-        <p class="section__subtitle">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – 
-            нужно только определиться с выбором велосипеда и отправиться в путь.</p>
-        <button class="road__button">Подробнее</button>
-        <p class="road__trademark">Cannondale Systemsix</p>
-        <img class="road__main-illustration" src="/images/road in forest.jpg">
+      <section class="road" id="road">
+        <div class="road__text">
+          <h1 class="section__title">Шоссе, ТТ и&nbsp;Грэвел</h1>
+          <p class="section__subtitle">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – 
+              нужно только определиться с выбором велосипеда и отправиться в путь.</p>
+          <button class="road__button">Подробнее</button>
+          <p class="road__trademark">Cannondale Systemsix</p>
+        </div>
+        <img class="road__main-illustration" src="/images/road-in-forest.jpg" alt="Лес.">
       </section>
       <section class="merckx">
-          <img class="merckx__img" src="/images/road.jpg">
+          <img class="merckx__img" src="/images/road.jpg" alt="Деревня в горах.">
           <div class="merckx__quote">
             <p class="merckx__quote-text">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</p>
             <p class="merckx__quote-author">Эдди Меркс</p>
             <p class="merckx__quote-author-subline">Велогонщик</p>
           </div>
       </section>
+      <section class="highway">
+        <h2 class="section__title">Шоссе</h2>
+        <p class="section__subtitle">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
+        <div class="highway__slider">
+          <img class="highway__img" src="/images/slider-img.jpg" alt="Дорога через горы.">
+          <img class="highway__img" src="/images/slider-img (2).jpg" alt="Велосипедист в лесу.">
+        </div>
+        <div class="highway__slider-buttons">
+          <button class="highway__slider-button"><</button>
+          <button class="highway__slider-button">></button>
+        </div>
+      </section>
+      <section class="bicycle" id="bicycle">
+        <div class="bicycle__navigation">
+          <h2 class="section__title">Велосипеды</h2>
+          <ul class="bicycle__list">
+            <li><a href="#" class="bicycle__link bicycle__link_active link">Шоссе</a></li>
+            <li><a href="#" class="bicycle__link link">Грэвэл</a></li>
+            <li><a href="#" class="bicycle__link link">ТТ</a></li>
+          </ul>
+        </div>
+        <div class="bicycle__cards">
+          <article class="bicycle__card">
+            <img class="bicycle__card-img" src="/images/Cervelo.png" alt="">
+            <p class="bicycle__card-name"><a href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN" class="link" target="_blank" rel="nofollow noreferrer">Cervelo Caledonia-5</a></p>
+          </article>
+          <article class="bicycle__card">
+            <img class="bicycle__card-img" src="/images/Cannondale.png" alt="">
+            <p class="bicycle__card-name"><a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J" class="link" target="_blank" rel="nofollow noreferrer">Cannondale Systemsix Himod</a></p>
+          </article>
+          <article class="bicycle__card">
+            <img class="bicycle__card-img" src="/images/Trek.png" alt="">
+            <p class="bicycle__card-name"><a href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF" class="link" target="_blank" rel="nofollow noreferrer">Trek Domane SL-7</a></p>
+          </article>
+        </div>
+      </section>
+      <section class="training" id="training">
+        <div class="training__text">
+          <h2 class="section__title">Тренировки</h2>
+          <p class="section__subtitle">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.</p>
+          <div class="training__text-links">
+            <a class="training__text-link link" href="https://www.komoot.com" target="_blank" rel="nofollow noreferrer">Strava</a>
+            <a class="training__text-link link" href="https://www.strava.com" target="_blank" rel="nofollow noreferrer">Komoot</a>
+          </div>
+        </div>
+        <img class="training__img" src="/images/road (2).jpg" alt="">
+      </section>
+    </main>  
+    <footer class="footer">
+      <form class="footer__form" action="" method="get">
+        <label class="footer__form-title">Подпишитесь на рассылку —</label>
+        <input class="footer__form-email" type="email" name="email" placeholder="   Ваш e-mail">
+        <div class="footer__line">
+          <p class="footer__author">&copy;Гуглеры Алина и Анастасия :)</p>
+          <button class="btn" type="button">Переключатель светлой темы</button>
+        </div>
+      </form> 
+    </footer>
+  </body>
+</html>

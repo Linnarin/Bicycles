@@ -1,0 +1,7 @@
+.road__main-illustration {
+  max-width: 610px;
+  max-height: 836px;
+  object-fit: contain;
+  margin-top: 20px;
+  z-index: 1;
+}

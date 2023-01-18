@@ -1,0 +1,7 @@
+.merckx {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 120px 120px 60px;
+  gap: 0 80px;
+}

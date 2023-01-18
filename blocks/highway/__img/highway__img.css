@@ -1,0 +1,6 @@
+.highway__img {
+  max-width: 650px;
+  object-fit: contain;
+  margin-right: 40px;
+  display: block;
+}
