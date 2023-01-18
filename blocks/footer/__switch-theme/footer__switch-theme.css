@@ -1,0 +1,10 @@
+.footer__switch-theme {
+  width: 28px;
+}
+.footer__switch-theme:nth-child(1) {
+  margin-right: 22px;
+}
+.footer__switch-theme:last-child {
+  width: 20px;
+  margin-left: 22px;
+}
