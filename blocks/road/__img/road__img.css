@@ -1,0 +1,6 @@
+.road__img {
+  width: 340px;
+  height: 260px;
+  margin: 20px 50px;
+  object-fit: cover;
+}

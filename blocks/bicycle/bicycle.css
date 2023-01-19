@@ -1,4 +1,4 @@
 .bicycle {
-  margin-left: 120px;
-  margin-bottom: 60px;
+  margin: 0 auto 60px;
+  max-width: 1200px;
 }

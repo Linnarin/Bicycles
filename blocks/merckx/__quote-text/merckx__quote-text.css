@@ -1,7 +1,21 @@
 .merckx__quote-text {
   font-size: 34px;
-  line-height: 44px;
+  line-height: 1.19;
   font-weight: 600;
   letter-spacing: -0.5px;
   margin: 0 0 262px;
+}
+
+@media (max-width: 1100px) {
+  .merckx__quote-text {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 550px) {
+  .merckx__quote-text {
+    font-size: 23px;
+    line-height: 1.26;
+    max-width: 284px;
+  }
 }

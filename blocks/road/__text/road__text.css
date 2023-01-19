@@ -1,5 +1,6 @@
 .road__text {
   margin-top: 20px;
+  margin-right: 250px;
   display: flex;
   flex-direction: column;
 }

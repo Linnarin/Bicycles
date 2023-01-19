@@ -1,6 +1,10 @@
 .road__trademark {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
   margin: 167px 0 209px;
   font-size: 18px;
   line-height: 1;
   font-weight: 400;
+  align-items: center;
 }

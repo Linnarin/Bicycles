@@ -9,10 +9,12 @@
   </head>
   <body class="page">
     <header class="header">
-      <nav class="header__links">
-        <a class="header__link link" href="#road">Покрытия и градиенты</a>
-        <a class="header__link link" href="#bicycle">Велосипеды</a>
-        <a class="header__link link" href="#training">Тренировки</a>
+      <nav>
+        <ul class="header__links">
+          <li><a class="header__link link" href="#road">Покрытия и градиенты</a></li>
+          <li><a class="header__link link" href="#bicycle">Велосипеды</a></li>
+          <li><a class="header__link link" href="#training">Тренировки</a></li>
+        </ul>
       </nav>
     </header>
     <main>
@@ -22,9 +24,17 @@
           <p class="section__subtitle">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – 
               нужно только определиться с выбором велосипеда и отправиться в путь.</p>
           <button class="road__button">Подробнее</button>
-          <p class="road__trademark">Cannondale Systemsix</p>
+          <div class="road__trademark">
+          <p class="road__trademark-text">Cannondale Systemsix</p>
+          <div class="road__strip"></div>
+          </div>
         </div>
-        <img class="road__main-illustration" src="./images/road-in-forest.jpg" alt="Лес.">
+        <div class="road__bicycle">
+          <div class="road__card">
+            <img src="./images/Cannondale2.png" class="road__img">
+          </div>
+        </div>
+      <img class="road__main-illustration" src="./images/road-in-forest.jpg" alt="Лес."> 
       </section>
       <section class="merckx">
           <img class="merckx__img" src="./images/road.jpg" alt="Деревня в горах.">

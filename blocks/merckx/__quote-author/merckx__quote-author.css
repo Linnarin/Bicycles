@@ -4,3 +4,9 @@
   font-weight: 500;
   margin: 0 0 6px;
 }
+
+@media (max-width: 1100px) {
+  .merckx__quote-author {
+    margin: 4px;
+  }
+}

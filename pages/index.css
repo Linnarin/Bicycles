@@ -17,6 +17,12 @@
 @import url(../blocks/road/__button/road__button.css);
 @import url(../blocks/road/__trademark/road__trademark.css);
 @import url(../blocks/road/__main-illustration/road__main-illustration.css);
+@import url(../blocks/road/__bicycle/road__bicycle.css);
+@import url(../blocks/road/__card/road__card.css);
+@import url(../blocks/road/__img/road__img.css);
+@import url(../blocks/road/__trademark-text/road__trademark-text.css);
+@import url(../blocks/road/__strip/road__strip.css);
+
 
 /*merckx*/
 @import url(../blocks/merckx/merckx.css);

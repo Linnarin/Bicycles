@@ -1,6 +1,6 @@
 .highway__slider {
   display: flex;
-  overflow: hidden;
   position: relative;
   margin-top: 80px;
+  gap: 40px;
 }

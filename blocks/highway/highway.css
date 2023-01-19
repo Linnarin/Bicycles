@@ -1,3 +1,12 @@
 .highway {
-  margin-left: 120px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+@media (max-width: 550px) {
+  .highway {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  }
 }

@@ -1,5 +1,5 @@
 .merckx__quote {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  max-width: 470px;
 }
