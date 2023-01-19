@@ -1,3 +1,14 @@
 .training__text-links {
   margin-top: 182px;
 }
+
+@media (max-width: 550px) {
+  .training__text-links {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    font-size: 12px;
+    font-weight: 1.5;
+  }
+}

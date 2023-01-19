@@ -10,5 +10,10 @@
 @media (max-width: 550px) {
   .section__title {
     grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    font-size: 32px;
+    line-height: 1.25;
   }
 }
