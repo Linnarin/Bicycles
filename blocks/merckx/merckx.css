@@ -13,3 +13,9 @@
     gap: 40px;
   }
 }
+
+@media (max-width: 888px) {
+  .merckx {
+    margin-top: 298px;
+  }
+}

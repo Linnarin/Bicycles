@@ -9,5 +9,7 @@
   .training__img {
     max-width: 284px;
     max-height: 225px;
+    position: absolute;
+    top: 20px;
   }
 }

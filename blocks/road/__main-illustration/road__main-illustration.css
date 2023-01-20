@@ -6,3 +6,9 @@
   z-index: 1;
   margin-left: min(48px);
 }
+
+@media (max-width: 888px) {
+  .road__main-illustration {
+    margin-top: -592px;
+  }
+}
