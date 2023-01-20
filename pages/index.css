@@ -43,6 +43,8 @@
 
 /*bicycle*/
 @import url(../blocks/bicycle/bicycle.css);
+@import url(../blocks/bicycle/__form/bicycle__form.css);
+@import url(../blocks/bicycle/__form-choice/bicycle__form-choice.css);
 @import url(../blocks/bicycle/__cards/bicycle__cards.css);
 @import url(../blocks/bicycle/__card/bicycle__card.css);
 @import url(../blocks/bicycle/__card-name/bicycle__card-name.css);

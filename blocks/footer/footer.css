@@ -3,3 +3,8 @@
     min-height: 424px;
     max-width: 100%;
 }
+@media (max-width: 888px) {
+    .footer {
+        min-height: 358px;
+    }
+}

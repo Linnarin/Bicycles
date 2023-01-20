@@ -13,6 +13,7 @@
   }
   .header::after {
     content: "☰";
+    color: #fff;
     font-size: 30px; /*на глаз, не забыть проверить и поправить*/
     margin-right: 20px;
     margin-top: 20px;
