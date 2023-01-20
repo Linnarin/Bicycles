@@ -2,9 +2,11 @@
     background-color: #2F2F2F;
     min-height: 424px;
     max-width: 100%;
+    padding: 80px 120px 0;
 }
-@media (max-width: 888px) {
-    .footer {
-        min-height: 358px;
+
+@media (max-width: 768px) {
+    .footer{
+      padding: 60px 18px 0;
     }
-}
+  }
