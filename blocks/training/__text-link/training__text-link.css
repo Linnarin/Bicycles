@@ -4,3 +4,9 @@
   line-height: 28px;
   margin-right: 30px;
 }
+@media (max-width: 888px) {
+  .training__text-link {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

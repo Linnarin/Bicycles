@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+=======
+.training__text {
+  margin-right: 160px;
+}
+@media (max-width: 888px) {
+  .training__text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-right: 0;
+  }
+}
+>>>>>>> 5173e927718f35c4752e28134e3c0b1289cc5b5a

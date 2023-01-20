@@ -3,10 +3,12 @@
   max-width: 1200px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
   .highway {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 284px;
+  position: relative;
   }
 }

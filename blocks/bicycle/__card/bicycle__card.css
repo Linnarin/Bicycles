@@ -1,3 +1,8 @@
-.bicycle__card {
-
+@media (max-width: 768px) {
+.bicycle__card:nth-child(2) {
+    display: none;
+}
+.bicycle__card:last-child {
+    display: none;
+}
 }
