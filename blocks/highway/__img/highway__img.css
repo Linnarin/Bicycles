@@ -10,5 +10,6 @@
   }
   .highway__img {
     max-width: 284px;
+    object-fit: cover;
   }
 }

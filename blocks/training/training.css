@@ -12,7 +12,8 @@
 @media (max-width: 888px) {
   .training {
     flex-direction: column;
-    margin: 140px auto 0;
+    margin: 140px auto 60px;
     max-width: 284px;
+    position: relative;
   }
 }

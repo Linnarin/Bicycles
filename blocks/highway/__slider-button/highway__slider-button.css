@@ -7,3 +7,11 @@
   height: 50px;
   margin-right: 20px;
 }
+
+@media (max-width: 768px) {
+  .highway__slider-button {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+}
