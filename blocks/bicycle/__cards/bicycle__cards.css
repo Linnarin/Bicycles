@@ -1,6 +1,13 @@
 .bicycle__cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 380px);
+  grid-template-columns: repeat(auto-fit, max(380px));
   grid-column-gap: 30px;
   margin-top: 140px;
+}
+@media (max-width: 768px) {
+  .bicycle__cards {
+    display: block;
+    max-width: 290px;
+    margin-top: 100px;
+  }
 }

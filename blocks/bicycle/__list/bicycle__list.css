@@ -4,5 +4,10 @@
   display: flex;
   padding: 0;
   gap: 0 40px;
+}
 
+@media (max-width: 768px) {
+  .bicycle__list {
+    display: none;
+  }
 }

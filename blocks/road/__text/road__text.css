@@ -1,6 +1,10 @@
 .road__text {
   margin-top: 20px;
-  margin-right: 250px;
   display: flex;
   flex-direction: column;
+}
+@media (max-width: 768px) {
+  .road__text {
+    gap: 40px;
+  }
 }

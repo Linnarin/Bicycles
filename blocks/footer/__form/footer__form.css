@@ -4,3 +4,8 @@
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 768px) {
+  .footer__form {
+    padding: 60px 18px 0;
+  }
+}

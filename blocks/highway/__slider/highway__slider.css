@@ -3,4 +3,11 @@
   position: relative;
   margin-top: 80px;
   gap: 40px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .highway__slider {
+    margin: 0;
+  }
 }

@@ -32,3 +32,10 @@
   width: 100%;
   border-radius: 4px;
 }
+@media (max-width: 768px) {
+  .road__button {
+    height: 46px;
+    max-width: 284px;
+    margin: 0;
+  }
+}

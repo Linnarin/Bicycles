@@ -5,12 +5,9 @@
   object-fit: cover;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 888px) {
   .training__img {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 2;
-    grid-row-end: 2;
     max-width: 284px;
+    max-height: 225px;
   }
 }
