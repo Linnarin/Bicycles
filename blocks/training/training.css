@@ -3,11 +3,16 @@
   display: flex;
   justify-content: space-between;
 }
-
-@media (max-width: 550px) {
+@media (max-width: 1280px) {
   .training {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: 150px auto 120px;
+  }
+}
+
+@media (max-width: 888px) {
+  .training {
+    flex-direction: column;
+    margin: 140px auto 0;
+    max-width: 284px;
   }
 }

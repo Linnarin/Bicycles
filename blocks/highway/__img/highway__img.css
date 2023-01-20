@@ -4,10 +4,11 @@
   display: block;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
+  .highway__img:last-child {
+    display: none;
+  }
   .highway__img {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
+    max-width: 284px;
   }
 }

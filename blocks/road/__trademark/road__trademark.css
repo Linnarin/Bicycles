@@ -8,3 +8,13 @@
   font-weight: 400;
   align-items: center;
 }
+@media (max-width: 888px) {
+  .road__trademark {
+    margin: 80px 0 80px;
+  }
+}
+@media (max-width: 768px) {
+  .road__trademark{
+    display: none;
+  }
+}

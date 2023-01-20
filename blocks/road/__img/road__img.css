@@ -1,6 +1,18 @@
 .road__img {
-  width: 340px;
+  max-width: 340px;
   height: 260px;
   margin: 20px 50px;
   object-fit: cover;
+}
+@media (max-width: 1280px) {
+  .road__img {
+    margin: 20px 30px;
+  }
+}
+@media (max-width: 888px) {
+  .road__img {
+    width: 180px;
+    height: 138px;
+    margin: 10px 26px;
+  }
 }
