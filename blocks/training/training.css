@@ -2,6 +2,7 @@
   margin: 150px 120px 120px;
   display: flex;
   justify-content: space-between;
+  gap: 160px;
 }
 
 @media (max-width: 550px) {
