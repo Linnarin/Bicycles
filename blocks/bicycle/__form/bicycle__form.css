@@ -1,0 +1,8 @@
+.bicycle__form {
+  display: none;
+}
+@media (max-width: 768px) {
+  .bicycle__form {
+    display: block;
+  }
+}
